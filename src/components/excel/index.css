@@ -1,0 +1,19 @@
+.excel-contianer{
+    width: 40vw;
+    //border-right: 1px solid black;
+}
+
+.excel-contianer > .columns{
+    padding: 0em 2em;
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.excel-contianer > .columns > .column{
+    border-radius: .2em;
+    font-size: 1.1em;
+    background: #EEE;
+    padding: .8em 1.5em;
+    margin: .1em;
+}

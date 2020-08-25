@@ -1,0 +1,37 @@
+{
+  "name": "sms-send",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "antd": "^3.26.3",
+    "cors-anywhere": "^0.4.1",
+    "electron-log": "^4.0.2",
+    "exceljs": "^3.5.0",
+    "mustache": "^3.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.0"
+  },
+  "devDependencies": {
+    "electron": "^7.1.7",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.17.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && electron ."
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

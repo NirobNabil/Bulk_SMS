@@ -1,0 +1,50 @@
+.filter-container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter-container > .title{
+  font-size: 1.3em;
+}
+
+.filter{
+  display: flex;
+  flex-direction: row;
+  padding: .5em;
+  width: 20em;
+  background: #EEE;
+  border-radius: .3em;
+  margin: 1em 0em;
+}
+
+.filter-var{
+  text-align: right;
+  width: 45%;
+  //border-right: 1px solid #222222;
+}
+
+.filter-op{
+  width: 10%;
+}
+
+.filter-val{
+  text-align: left;
+  width: 45%;
+}
+
+.filter button{
+  position: absolute;
+  right: 0;
+  margin: -.4em 0em;
+}
+
+.filter-modal{
+  display: flex;
+  justify-content: center;
+}
+
+.filter-modal > .ant-modal-content{
+  width: 80vw;
+}

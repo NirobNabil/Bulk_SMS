@@ -1,0 +1,31 @@
+[type="file"] {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  white-space: nowrap;
+  width: 1px;
+}
+ 
+[type="file"] + label {
+  background-color: lightgrey;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 5px;
+}
+
+[type="file"]:focus + label {
+  outline: 1px dotted black;
+}
+
+.file-upload{
+  display: flex;
+  flex-direction: column;
+}
